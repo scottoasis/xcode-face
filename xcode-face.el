@@ -10,8 +10,7 @@
 ;;   (setup-xcode-face)
 ;;
 
-(defun 
-	convert-percent-to-hex (p) 
+(defun convert-percent-to-hex (p) 
 	"Convert percentage float (e.g. 0.1) to 4-bits hex (e.g. 0x2)."
 	(format "%1X" (round (* p 15))))
 
